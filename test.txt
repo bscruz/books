@@ -1,1 +1,2 @@
-print hello
+Romeo and Juliet, by William Shakespeare
+Time Telling through the Ages, by Harry Chase Brearley
