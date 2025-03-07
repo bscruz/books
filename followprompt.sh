@@ -2,7 +2,7 @@
 
 file=$1
 echo "hi your books are downloading..........."
-while IFS= read -r line # starts a loop that reads each line because IFS is empty reads the unmod line very important
+while read -r line # starts a loop that reads each line because IFS is empty reads the unmod line very important
 do
     book=$(curl -s $line | grep "Title: "| sed 's/Title: //g') #gets the name of the book from the file
     
