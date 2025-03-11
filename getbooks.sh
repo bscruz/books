@@ -35,6 +35,8 @@ then
     
 	done < "$1" #go back to the book list file (redirects it) and restart the process
 	echo "Get to reading neowww" 
+    else
+	1>&2 printf "INVALID input the file has to be named book_list \n"
     fi
 elif [ $# -gt 2 ]
 then
@@ -45,6 +47,6 @@ then
 elif [ $# -eq 0 ]
 then
     1>&2 printf "Input a file \n"
-else
-    1>&2 printf "INVALID input the file has to be named book_list \n"
 fi
+
+
