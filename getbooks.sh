@@ -46,7 +46,7 @@ then
     1>&2 printf "Oh no! TOO many inputs \n"
 elif [ $# -eq 0 ]
 then
-    1>&2 printf "Input a file \n"
+    1>&2 printf "Input a file named book_list with book links \n"
 fi
 
 
