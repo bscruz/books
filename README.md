@@ -11,7 +11,7 @@ Example
 ---
 
 ```
-./getbooks.sh book_file
+./getbooks.sh book_list
 
 ```
 
